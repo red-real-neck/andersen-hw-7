@@ -97,7 +97,7 @@ window.addEventListener('DOMContentLoaded', function() {
         result.innerHTML = '<span class="calc-body__error">Ничего не введено</span>';
     }
 
-    //  START
+    //  start
 
     clearOutput();
     clearResult();
