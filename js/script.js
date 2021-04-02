@@ -94,34 +94,6 @@ window.addEventListener('DOMContentLoaded', function() {
         result.innerHTML = '<span class="calc-body__error">Ничего не введено</span>';
     }
 
-    // function checkAndSetFontSize(result) {
-    //     if (typeof result === 'string') {
-    //         return result;
-    //     }
-    //     let resultStr =  String(result);
-    //     if (resultStr.length < 7) {
-    //         return parseFloat(resultStr);
-    //     }
-
-    //         if (resultStr.length>7 && resultStr.length<10) {
-    //             console.log(1);
-    //             return (`<span style="font-size: 53px;">${parseFloat(resultStr)}</span>`);
-    //         } else if (resultStr.length>10 && resultStr.length<14) {
-    //             console.log(2);
-    //             return (`<span style="font-size: 40px;">${parseFloat(resultStr)}</span>`);
-    //         } else if (resultStr.length>14 && resultStr.length<20) {
-    //             console.log(3);
-    //             return (`<span style="font-size: 30px;">${parseFloat(resultStr)}</span>`);
-    //         } else if (resultStr.length>20 && resultStr.length<30) {
-    //             console.log(4);
-    //             return (`<span style="font-size: 20px;">${parseFloat(resultStr)}</span>`);
-    //         } else {
-    //             debugger;
-    //             console.log(5);
-    //             return ('<span class="calc-body__error">Слишком большое значение</span>');
-    //         }   
-    //     }
-
     //  START
 
     clearOutput();
