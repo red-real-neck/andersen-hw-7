@@ -53,6 +53,9 @@ window.addEventListener('DOMContentLoaded', function() {
         }
         switch (operator) {
             case '/':
+                if (outputWindow.innerHTML === '0') {
+                    result.innerHTML = simpleError;
+                }
                 result.innerHTML = checkCorrectResult(parseFloat((parseFloat(result.innerHTML) / parseFloat(outputWindow.innerHTML)).toFixed(8)));
                 break;
             case '*':
